@@ -1,0 +1,21 @@
+{
+    "name": "alura/doctrine",
+    "description": "first doctrine app",
+    "type": "project",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "Oscar Romanini",
+            "email": "oscar@oscar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "doctrine/orm": "^3.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\Doctrine\\": "src/"
+        }
+    }
+}
