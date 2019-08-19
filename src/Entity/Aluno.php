@@ -14,6 +14,7 @@ class Aluno
      * @Column(type="integer")
      */
     private $id;
+
     /**
      * @Column(type="string")
      */
